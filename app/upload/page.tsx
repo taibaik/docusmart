@@ -4,7 +4,7 @@ export default function UploadPage() {
   return (
     <main className="min-h-screen bg-gray-50 p-6">
 
-      <h1 className="text-3xl font-bold mb-6">
+      <h1 className="text-3xl font-bold mb-6 text-black">
         Upload File
       </h1>
 
@@ -19,10 +19,12 @@ export default function UploadPage() {
           className="mb-4"
         />
 
-        <br />
+        <p className="text-sm text-gray-500 mb-6">
+          Selected File: sample_document.pdf
+        </p>
 
         <Link
-          href="/result"
+          href="/processing"
           className="bg-black text-white px-5 py-3 rounded-xl shadow inline-block"
         >
           Upload File
